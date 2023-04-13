@@ -1,0 +1,12 @@
+
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/src/*": ["src/*"],
+            "@/utils/*": ["src/utils/*"],
+            "@/models/*": ["src/models/*"],   
+            "@DB": ["src/utils/connectDB.js"],
+        }
+    }
+}

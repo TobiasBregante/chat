@@ -1,0 +1,83 @@
+$layout-mobile: 500px;
+
+.container-textarea {
+  margin-top: 3vh !important;
+  margin-bottom: 3vh !important;
+}
+.chat-container {
+  padding: 1%;
+  min-height: 80vh !important;
+}
+.container-fluid {
+  background: #360033;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  min-height: 100vh;
+  max-width: 100% !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.chat-container {
+  background: transparent !important;
+  min-height: 50vh;
+}
+.textBoxChat, .textBoxChatResponse {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 0 !important;
+  padding-top: 10px !important;
+  top: 0 !important;
+  position: relative !important;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+}
+.textBoxChat {
+  background-color: rgba(0, 0, 0, .2);
+}
+.textBoxChatResponse {
+  background-color: rgba(255, 255, 255, .2);
+}
+.btnSubmit {
+  background: #360033 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0b8793, #360033) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0b8793, #360033) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 50px !important;
+  height: 70px !important;
+  width: 70px !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  margin: auto;
+}
+.textarea {
+  textarea {
+    background: transparent;
+    color: #fff;
+    margin: auto;
+    display: block;
+    position: absolute;
+    width: 84%;
+    max-height: 30px !important;
+  }
+  label {
+    position: relative !important;
+    background-color: rgba(0, 0, 0, .2) !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 50px;
+    padding: 3%;
+    height: 70px;
+  }
+}
