@@ -28,13 +28,6 @@
     "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "lint": "next lint"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -50,7 +43,5 @@
   },
   "devDependencies": {
     "sass": "^1.54.8",
-    "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6"
   }
 }
