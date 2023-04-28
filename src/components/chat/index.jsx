@@ -5,6 +5,11 @@ import Body from "../_body.component"
 import { Grid, Textarea, Button, Text } from "@nextui-org/react"
 import { useEffect } from "react"
 
+const Jobs = async () => {
+  const res = await (await axios.get('https://mercadolibre.eightfold.ai/api/apply/v2/jobs/16011633/jobs?domain=mercadolibre.com')).data
+  console.log(res)
+}
+
 const Chat = () => {
     const [form, setForm] = useState({
         since_created: new Date(),
@@ -33,6 +38,10 @@ const Chat = () => {
         })
         setUserNumber(user)
     }, [user, loop])
+
+    useEffect(() => {
+        Jobs()
+    }, [])
 
     const { API_PATH } = process.env
 
